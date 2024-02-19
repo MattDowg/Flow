@@ -1,0 +1,11 @@
+.nav-link {
+    color: var(--nord4)
+}
+
+.logo-wrapper {
+    margin-left: 1rem;
+}
+.logo {
+    height: max(20px, 6vh); 
+    width: auto;
+}

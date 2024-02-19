@@ -1,0 +1,33 @@
+.footer {
+    background-color: var(--nord3);
+    color: var(--nord4);
+    padding: 10px;
+}
+
+.columns {
+    text-align: center;
+}
+
+.footer-title {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-link,
+.footer-title {
+    color: var(--nord6);
+    display: block;
+}
+
+.github {
+    margin-top: 10px;
+    height: max(10px, 3vh); 
+    width: auto;
+}
+
+@media (min-width: 200px) and (max-width: 550px) {
+    .six.columns {
+        width: 50%;
+    }
+}

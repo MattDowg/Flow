@@ -1,24 +1,16 @@
-import logo from './assets/images/logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import './styles.css';
+import Navbar from './Navbar.js';
+import Footer from './Footer.js';
+import TypeField from './TypeField.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Flow
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <TypeField/>
+      <Footer/>
     </div>
   );
 }
