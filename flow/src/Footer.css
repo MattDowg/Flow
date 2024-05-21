@@ -1,33 +1,31 @@
 .footer {
-    background-color: var(--nord3);
-    color: var(--nord4);
-    padding: 10px;
-}
-
-.columns {
+    margin-top: 10px;
+    background-color: var(--nord1);
+    color: var(--nord5);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
 }
 
-.footer-title {
+.footer-header {
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.footer-link,
-.footer-title {
+.footer-link {
     color: var(--nord6);
     display: block;
 }
 
-.github {
-    margin-top: 10px;
-    height: max(10px, 3vh); 
-    width: auto;
+.icon-wrapper {
+    margin-left: 0rem;
 }
 
-@media (min-width: 200px) and (max-width: 550px) {
-    .six.columns {
-        width: 50%;
-    }
+.icon {
+    margin-top: 10px;
+    height: max(20px, 6vh); 
+    width: auto;
 }

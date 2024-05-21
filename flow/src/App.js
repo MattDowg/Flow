@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import './styles.css';
+import './assets/css/styles.css';
 import Navbar from './Navbar.js';
 import Footer from './Footer.js';
 import TypeField from './TypeField.js';

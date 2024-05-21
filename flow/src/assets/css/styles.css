@@ -12,9 +12,10 @@
     --nord8: #88C0D0;
     --nord9: #81A1C1;
     --nord10: #5E81AC;
-}
 
-body {
-    font-family: "Ubuntu", sans-serif;
-    background-color: var(--nord1);
+    --nord11: #BF616A;
+    --nord12: #D08770;
+    --nord13: #EBCB8B;
+    --nord14: #A3BE8C;
+    --nord15: #B48EAD;
 }
