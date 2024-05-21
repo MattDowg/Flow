@@ -7,6 +7,10 @@
     margin-left: 1rem;
 }
 
+.title {
+    text-align: left;
+}
+
 .logo {
     height: max(20px, 6vh); 
     width: auto;
